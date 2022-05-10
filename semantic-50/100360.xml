@@ -1,22 +1,18 @@
-<root annotationID="0" passageID="100280">
+<root annotationID="0" passageID="100360">
   <attributes />
   <extra format="ucca" />
   <layer layerID="0">
     <attributes />
     <node ID="0.1" type="Word">
-      <attributes paragraph="1" paragraph_position="1" text="D&#246;n&#252;p" />
-      <extra dep="nmod" pos="VERB" />
+      <attributes paragraph="1" paragraph_position="1" text="Korku" />
+      <extra dep="root" pos="NOUN" />
     </node>
     <node ID="0.2" type="Word">
-      <attributes paragraph="1" paragraph_position="2" text="bakt&#305;" />
-      <extra dep="root" pos="VERB" />
+      <attributes paragraph="1" paragraph_position="2" text="i&#231;indeyim" />
+      <extra dep="compound" pos="NOUN" />
     </node>
-    <node ID="0.3" type="Word">
-      <attributes paragraph="1" paragraph_position="3" text="bana" />
-      <extra dep="obl" pos="PRON" />
-    </node>
-    <node ID="0.4" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="4" text="." />
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -27,7 +23,7 @@
       <edge toID="1.2" type="H">
         <attributes />
         <category tag="H" />
-		</edge>
+      </edge>
     </node>
     <node ID="1.2" type="FN">
       <attributes />
@@ -35,19 +31,15 @@
         <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.4" type="D">
+      <edge toID="1.4" type="S">
+        <attributes />
+        <category tag="S" />
+      </edge>
+      <edge toID="1.5" type="D">
         <attributes />
         <category tag="D" />
       </edge>
-	   <edge toID="1.6" type="P">
-        <attributes />
-        <category tag="P" />
-		</edge>
-	   <edge toID="1.7" type="A">
-        <attributes />
-        <category tag="A" />
-		</edge>
-	   <edge toID="1.8" type="U">
+      <edge toID="1.6" type="U">
         <attributes />
         <category tag="U" />
       </edge>
@@ -57,35 +49,21 @@
     </node>
     <node ID="1.4" type="FN">
       <attributes />
-      <edge toID="1.5" type="P">
-        <attributes />
-        <category tag="P" />
-      </edge>
-    </node>
-    <node ID="1.5" type="FN">
-      <attributes />
       <edge toID="0.1" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.6" type="FN">
+    <node ID="1.5" type="FN">
       <attributes />
       <edge toID="0.2" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.7" type="FN">
+    <node ID="1.6" type="PNCT">
       <attributes />
       <edge toID="0.3" type="Terminal">
-        <attributes />
-        <category tag="Terminal" />
-      </edge>
-    </node>
-    <node ID="1.8" type="PNCT">
-      <attributes />
-      <edge toID="0.4" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

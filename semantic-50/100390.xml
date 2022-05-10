@@ -99,9 +99,9 @@
     </node>	
     <node ID="1.6" type="FN">
       <attributes />
-      <edge toID="1.7" type="E">
+      <edge toID="1.7" type="F">
         <attributes />
-        <category tag="E" />
+        <category tag="F" />
       </edge>
       <edge toID="1.8" type="C">
         <attributes />

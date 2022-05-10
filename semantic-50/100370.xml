@@ -47,9 +47,9 @@
         <attributes />
         <category tag="D" />
       </edge>
-      <edge toID="1.5" type="F">
+      <edge toID="1.5" type="D">
         <attributes />
-        <category tag="F" />
+        <category tag="D" />
       </edge>
       <edge toID="1.6" type="D">
         <attributes />

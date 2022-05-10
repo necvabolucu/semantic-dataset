@@ -1,15 +1,15 @@
-<root annotationID="0" passageID="100290">
+<root annotationID="0" passageID="100440">
   <attributes />
   <extra format="ucca" />
   <layer layerID="0">
     <attributes />
     <node ID="0.1" type="Word">
-      <attributes paragraph="1" paragraph_position="1" text="Neden" />
-      <extra dep="obl" pos="PRON" />
+      <attributes paragraph="1" paragraph_position="1" text="Hayret" />
+      <extra dep="nmod" pos="NOUN" />
     </node>
     <node ID="0.2" type="Word">
-      <attributes paragraph="1" paragraph_position="2" text="geldiniz" />
-      <extra dep="root" pos="VERB" />
+      <attributes paragraph="1" paragraph_position="2" text="i&#231;indeydim" />
+      <extra dep="conj" pos="NOUN" />
     </node>
     <node ID="0.3" type="Punctuation">
       <attributes paragraph="1" paragraph_position="3" text="." />
@@ -31,15 +31,11 @@
         <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.4" type="D">
+      <edge toID="1.4" type="S">
         <attributes />
-        <category tag="D" />
+        <category tag="S" />
       </edge>
-	  <edge toID="1.5" type="P">
-        <attributes />
-        <category tag="P" />
-      </edge>
-      <edge toID="1.6" type="U">
+      <edge toID="1.7" type="U">
         <attributes />
         <category tag="U" />
       </edge>
@@ -49,19 +45,30 @@
     </node>
     <node ID="1.4" type="FN">
       <attributes />
+      <edge toID="1.5" type="C">
+        <attributes />
+        <category tag="C" />
+      </edge>
+      <edge toID="1.6" type="R">
+        <attributes />
+        <category tag="R" />
+      </edge>
+    </node>
+    <node ID="1.5" type="FN">
+      <attributes />
       <edge toID="0.1" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.5" type="FN">
+    <node ID="1.6" type="FN">
       <attributes />
       <edge toID="0.2" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.6" type="PNCT">
+    <node ID="1.7" type="PNCT">
       <attributes />
       <edge toID="0.3" type="Terminal">
         <attributes />

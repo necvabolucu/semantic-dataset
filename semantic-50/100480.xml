@@ -88,6 +88,10 @@
     </node>
     <node ID="1.5" type="FN">
       <attributes />
+	  <edge toID="1.4" type="A">
+        <attributes remote="True"/>
+        <category tag="A" />
+      </edge>
       <edge toID="1.6" type="A">
         <attributes />
         <category tag="A" />
@@ -107,9 +111,9 @@
         <attributes />
         <category tag="E" />
       </edge>
-      <edge toID="1.11" type="E">
+      <edge toID="1.11" type="F">
         <attributes />
-        <category tag="E" />
+        <category tag="F" />
       </edge>
       <edge toID="1.12" type="C">
         <attributes />
