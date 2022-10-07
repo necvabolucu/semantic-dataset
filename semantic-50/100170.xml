@@ -20,23 +20,31 @@
       <extra dep="obl" pos="NOUN" />
     </node>
     <node ID="0.5" type="Word">
-      <attributes paragraph="1" paragraph_position="5" text="&#214;m&#252;r_Uzatma_K&#305;raathanesi" />
+      <attributes paragraph="1" paragraph_position="5" text="&#214;m&#252;r" />
       <extra dep="nmod:poss" pos="NOUN" />
     </node>
-    <node ID="0.6" type="Word">
-      <attributes paragraph="1" paragraph_position="6" text="'nin" />
-      <extra dep="flat" pos="AUX" />
+	 <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="Uzatma" />
+      <extra dep="nmod:poss" pos="NOUN" />
     </node>
-    <node ID="0.7" type="Word">
-      <attributes paragraph="1" paragraph_position="7" text="kap&#305;s&#305;na" />
-      <extra dep="obl" pos="NOUN" />
+	 <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="K&#305;raathanesi" />
+      <extra dep="nmod:poss" pos="NOUN" />
     </node>
     <node ID="0.8" type="Word">
-      <attributes paragraph="1" paragraph_position="8" text="varm&#305;&#351;t&#305;" />
+      <attributes paragraph="1" paragraph_position="8" text="'nin" />
+      <extra dep="flat" pos="AUX" />
+    </node>
+    <node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="kap&#305;s&#305;na" />
+      <extra dep="obl" pos="NOUN" />
+    </node>
+    <node ID="0.10" type="Word">
+      <attributes paragraph="1" paragraph_position="10" text="varm&#305;&#351;t&#305;" />
       <extra dep="root" pos="VERB" />
     </node>
-    <node ID="0.9" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="9" text="." />
+    <node ID="0.11" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="11" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -161,31 +169,39 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
+	  <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+	  <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
     </node>
     <node ID="1.13" type="FN">
-      <attributes />
-      <edge toID="0.6" type="Terminal">
-        <attributes />
-        <category tag="Terminal" />
-      </edge>
-    </node>
-    <node ID="1.14" type="FN">
-      <attributes />
-      <edge toID="0.7" type="Terminal">
-        <attributes />
-        <category tag="Terminal" />
-      </edge>
-    </node>		
-    <node ID="1.15" type="FN">
       <attributes />
       <edge toID="0.8" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.16" type="PNCT">
+    <node ID="1.14" type="FN">
       <attributes />
       <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>		
+    <node ID="1.15" type="FN">
+      <attributes />
+      <edge toID="0.10" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.16" type="PNCT">
+      <attributes />
+      <edge toID="0.11" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

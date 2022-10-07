@@ -97,14 +97,14 @@
         <category tag="Terminal" />
       </edge>
     </node>
-	<node ID="1.6" type="FN">
+    <node ID="1.6" type="FN">
       <attributes />
       <edge toID="0.2" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.7" type="FN">
+	<node ID="1.7" type="FN">
       <attributes />
       <edge toID="1.8" type="F">
         <attributes />

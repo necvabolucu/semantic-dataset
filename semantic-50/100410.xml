@@ -4,27 +4,35 @@
   <layer layerID="0">
     <attributes />
     <node ID="0.1" type="Word">
-      <attributes paragraph="1" paragraph_position="1" text="&#214;m&#252;r_Uzatma_K&#305;raathanesi" />
+      <attributes paragraph="1" paragraph_position="1" text="&#214;m&#252;r" />
       <extra dep="compound" pos="NOUN" />
     </node>
-    <node ID="0.2" type="Word">
-      <attributes paragraph="1" paragraph_position="2" text="mi" />
-      <extra dep="advmod:emph" pos="AUX" />
+	<node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="Uzatma" />
+      <extra dep="compound" pos="NOUN" />
     </node>
-    <node ID="0.3" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="3" text="?" />
-      <extra dep="punct" pos="PUNCT" />
+	<node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="K&#305;raathanesi" />
+      <extra dep="compound" pos="NOUN" />
     </node>
     <node ID="0.4" type="Word">
-      <attributes paragraph="1" paragraph_position="4" text="diye" />
+      <attributes paragraph="1" paragraph_position="4" text="mi" />
+      <extra dep="advmod:emph" pos="AUX" />
+    </node>
+    <node ID="0.5" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="5" text="?" />
+      <extra dep="punct" pos="PUNCT" />
+    </node>
+    <node ID="0.6" type="Word">
+      <attributes paragraph="1" paragraph_position="6" text="diye" />
       <extra dep="case" pos="ADP" />
     </node>
-    <node ID="0.5" type="Word">
-      <attributes paragraph="1" paragraph_position="5" text="sordu" />
+    <node ID="0.7" type="Word">
+      <attributes paragraph="1" paragraph_position="7" text="sordu" />
       <extra dep="root" pos="VERB" />
     </node>
-    <node ID="0.6" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="6" text="." />
+    <node ID="0.8" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="8" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -84,38 +92,46 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
+	  <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+	  <edge toID="0.3" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
     </node>
     <node ID="1.6" type="FN">
-      <attributes />
-      <edge toID="0.2" type="Terminal">
-        <attributes />
-        <category tag="Terminal" />
-      </edge>
-    </node>
-    <node ID="1.7" type="PNCT">
-      <attributes />
-      <edge toID="0.3" type="Terminal">
-        <attributes />
-        <category tag="Terminal" />
-      </edge>
-    </node>
-    <node ID="1.8" type="PNCT">
       <attributes />
       <edge toID="0.4" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.9" type="FN">
+    <node ID="1.7" type="PNCT">
       <attributes />
       <edge toID="0.5" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.10" type="PNCT">
+    <node ID="1.8" type="PNCT">
       <attributes />
       <edge toID="0.6" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.9" type="FN">
+      <attributes />
+      <edge toID="0.7" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+    <node ID="1.10" type="PNCT">
+      <attributes />
+      <edge toID="0.8" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

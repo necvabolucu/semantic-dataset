@@ -93,6 +93,10 @@
         <attributes />
         <category tag="P" />
       </edge>
+	  <edge toID="1.7" type="A">
+        <attributes remote="True" />
+        <category tag="A" />
+      </edge>
     </node>
 	<node ID="1.5" type="FN">
       <attributes implicit="True" />

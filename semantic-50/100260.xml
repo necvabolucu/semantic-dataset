@@ -28,23 +28,31 @@
       <extra dep="nmod" pos="VERB" />
     </node>
     <node ID="0.7" type="Word">
-      <attributes paragraph="1" paragraph_position="7" text="&#214;m&#252;r_Uzatma_K&#305;raathanesi" />
+      <attributes paragraph="1" paragraph_position="7" text="&#214;m&#252;r" />
       <extra dep="nmod" pos="NOUN" />
     </node>
-    <node ID="0.8" type="Word">
-      <attributes paragraph="1" paragraph_position="8" text="'nden" />
-      <extra dep="compound" pos="AUX" />
+	<node ID="0.8" type="Word">
+      <attributes paragraph="1" paragraph_position="8" text="Uzatma" />
+      <extra dep="nmod" pos="NOUN" />
     </node>
-    <node ID="0.9" type="Word">
-      <attributes paragraph="1" paragraph_position="9" text="d&#305;&#351;ar&#305;ya" />
-      <extra dep="conj" pos="NOUN" />
+	<node ID="0.9" type="Word">
+      <attributes paragraph="1" paragraph_position="9" text="K&#305;raathanesi" />
+      <extra dep="nmod" pos="NOUN" />
     </node>
     <node ID="0.10" type="Word">
-      <attributes paragraph="1" paragraph_position="10" text="&#231;&#305;kt&#305;m" />
+      <attributes paragraph="1" paragraph_position="10" text="'nden" />
+      <extra dep="compound" pos="AUX" />
+    </node>
+    <node ID="0.11" type="Word">
+      <attributes paragraph="1" paragraph_position="11" text="d&#305;&#351;ar&#305;ya" />
+      <extra dep="conj" pos="NOUN" />
+    </node>
+    <node ID="0.12" type="Word">
+      <attributes paragraph="1" paragraph_position="12" text="&#231;&#305;kt&#305;m" />
       <extra dep="compound" pos="VERB" />
     </node>
-    <node ID="0.11" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="11" text="." />
+    <node ID="0.13" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="13" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -76,7 +84,7 @@
     <node ID="1.2" type="FN">
       <attributes />
       <edge toID="1.3" type="A">
-        <attributes implicit="True" />
+        <attributes />
         <category tag="A" />
       </edge>
       <edge toID="1.4" type="A">
@@ -188,31 +196,39 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
+	  <edge toID="0.8" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+	  <edge toID="0.9" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
     </node>
     <node ID="1.14" type="FN">
       <attributes />
-      <edge toID="0.8" type="Terminal">
+      <edge toID="0.10" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.15" type="FN">
       <attributes />
-      <edge toID="0.9" type="Terminal">
+      <edge toID="0.11" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>	
     <node ID="1.16" type="FN">
       <attributes />
-      <edge toID="0.10" type="Terminal">
+      <edge toID="0.12" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>		
     <node ID="1.17" type="PNCT">
       <attributes />
-      <edge toID="0.11" type="Terminal">
+      <edge toID="0.13" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

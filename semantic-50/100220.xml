@@ -4,11 +4,15 @@
   <layer layerID="0">
     <attributes />
     <node ID="0.1" type="Word">
-      <attributes paragraph="1" paragraph_position="1" text="Soluk_solu&#287;ayd&#305;" />
+      <attributes paragraph="1" paragraph_position="1" text="solu&#287;ayd&#305;" />
       <extra dep="root" pos="PROPN" />
     </node>
-    <node ID="0.2" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="2" text="." />
+	<node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="solu&#287;ayd&#305;" />
+      <extra dep="compound" pos="PROPN" />
+    </node>
+    <node ID="0.3" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="3" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -45,10 +49,14 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
+	  <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
     </node>
     <node ID="1.5" type="PNCT">
       <attributes />
-      <edge toID="0.2" type="Terminal">
+      <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

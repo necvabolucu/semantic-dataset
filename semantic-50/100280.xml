@@ -35,7 +35,7 @@
 		<edge toID="1.8" type="U">
         <attributes />
         <category tag="U" />
-		</edge>
+      </edge>
     </node>
     <node ID="1.2" type="FN">
       <attributes />
@@ -46,7 +46,7 @@
 	   <edge toID="1.4" type="P">
         <attributes />
         <category tag="P" />
-		</edge>
+		</edge>	   
     </node>
 	<node ID="1.3" type="FN">
       <attributes implicit="True" />
@@ -60,18 +60,18 @@
     </node>
 	<node ID="1.5" type="FN">
       <attributes />
-      <edge toID="1.3" type="A">
+	  <edge toID="1.3" type="A">
         <attributes remote="True" />
         <category tag="A" />
       </edge>
 	   <edge toID="1.6" type="P">
         <attributes />
         <category tag="P" />
-		</edge>
-		<edge toID="1.7" type="A">
+		</edge>	
+      <edge toID="1.7" type="A">
         <attributes />
         <category tag="A" />
-		</edge>
+      </edge>   
     </node>
     <node ID="1.6" type="FN">
       <attributes />

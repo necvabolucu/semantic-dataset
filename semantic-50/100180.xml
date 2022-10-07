@@ -114,17 +114,17 @@
         <category tag="Terminal" />
       </edge>
     </node> 
-    <node ID="1.9" type="FN">
+	<node ID="1.9" type="FN">
       <attributes />
       <edge toID="1.3" type="A">
         <attributes remote="True" />
         <category tag="A" />
       </edge>
-	  <edge toID="1.10" type="A">
-        <attributes  />
+      <edge toID="1.10" type="A">
+        <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.11" type="P">
+	  <edge toID="1.11" type="P">
         <attributes />
         <category tag="P" />
       </edge>

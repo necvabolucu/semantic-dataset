@@ -16,11 +16,15 @@
       <extra dep="compound" pos="ADP" />
     </node>
     <node ID="0.4" type="Word">
-      <attributes paragraph="1" paragraph_position="4" text="inip_kalk&#305;yordu" />
+      <attributes paragraph="1" paragraph_position="4" text="inip" />
       <extra dep="root" pos="VERB" />
     </node>
-    <node ID="0.5" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="5" text="." />
+	<node ID="0.5" type="Word">
+      <attributes paragraph="1" paragraph_position="5" text="kalk&#305;yordu" />
+      <extra dep="root" pos="VERB" />
+    </node>
+    <node ID="0.6" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="6" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -104,10 +108,14 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
+	  <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
     </node>
     <node ID="1.10" type="PNCT">
       <attributes />
-      <edge toID="0.5" type="Terminal">
+      <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

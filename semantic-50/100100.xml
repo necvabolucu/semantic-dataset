@@ -86,9 +86,9 @@
         <attributes />
         <category tag="F" />
       </edge>
-      <edge toID="1.8" type="G+A">
+      <edge toID="1.8" type="S+A">
         <attributes />
-        <category tag="G+A" />
+        <category tag="S+A" />
       </edge>
 	   <edge toID="1.9" type="U">
         <attributes />

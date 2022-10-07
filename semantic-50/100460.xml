@@ -117,15 +117,15 @@
         <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.10" type="A">
+	  <edge toID="1.10" type="D">
         <attributes />
-        <category tag="A" />
+        <category tag="D" />
       </edge>
       <edge toID="1.11" type="S">
         <attributes />
         <category tag="S" />
       </edge>
-	   <edge toID="1.14" type="D">
+	  <edge toID="1.14" type="D">
         <attributes />
         <category tag="D" />
       </edge>
@@ -133,14 +133,14 @@
 	<node ID="1.9" type="FN">
       <attributes implicit="True" />
     </node>
-    <node ID="1.10" type="FN">
+	 <node ID="1.10" type="FN">
       <attributes />
       <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-	 <node ID="1.11" type="FN">
+    <node ID="1.11" type="FN">
       <attributes />
       <edge toID="1.12" type="F">
         <attributes />
@@ -157,7 +157,7 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-    </node>	
+    </node>
     <node ID="1.13" type="FN">
       <attributes />
       <edge toID="0.5" type="Terminal">

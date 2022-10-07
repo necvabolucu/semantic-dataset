@@ -4,15 +4,19 @@
   <layer layerID="0">
     <attributes />
     <node ID="0.1" type="Word">
-      <attributes paragraph="1" paragraph_position="1" text="Elim_aya&#287;&#305;m" />
+      <attributes paragraph="1" paragraph_position="1" text="Elim" />
       <extra dep="nsubj" pos="NOUN" />
     </node>
-    <node ID="0.2" type="Word">
-      <attributes paragraph="1" paragraph_position="2" text="tutmuyor" />
+	<node ID="0.2" type="Word">
+      <attributes paragraph="1" paragraph_position="2" text="aya&#287;&#305;m" />
+      <extra dep="nsubj" pos="NOUN" />
+    </node>
+    <node ID="0.3" type="Word">
+      <attributes paragraph="1" paragraph_position="3" text="tutmuyor" />
       <extra dep="root" pos="VERB" />
     </node>
-    <node ID="0.3" type="Punctuation">
-      <attributes paragraph="1" paragraph_position="3" text="." />
+    <node ID="0.4" type="Punctuation">
+      <attributes paragraph="1" paragraph_position="4" text="." />
       <extra dep="punct" pos="PUNCT" />
     </node>
   </layer>
@@ -60,17 +64,21 @@
         <attributes />
         <category tag="Terminal" />
       </edge>
-    </node>
-    <node ID="1.6" type="FN">
-      <attributes />
       <edge toID="0.2" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+	<node ID="1.6" type="FN">
+      <attributes />
+      <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
     <node ID="1.7" type="PNCT">
       <attributes />
-      <edge toID="0.3" type="Terminal">
+      <edge toID="0.4" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
