@@ -34,9 +34,9 @@
     </node>
     <node ID="1.2" type="FN">
       <attributes />
-      <edge toID="1.3" type="A+S">
+      <edge toID="1.3" type="S+A">
         <attributes />
-        <category tag="A+S" />
+        <category tag="S+A" />
       </edge>
       <edge toID="1.4" type="A">
         <attributes />
