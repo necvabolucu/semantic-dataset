@@ -94,7 +94,7 @@
     </node>
     <node ID="1.6" type="FN">
       <attributes />
-      <edge toID="0.6" type="Terminal">
+      <edge toID="0.3" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>

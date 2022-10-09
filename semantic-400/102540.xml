@@ -67,10 +67,6 @@
         <attributes remote="True"/>
         <category tag="A" />
       </edge>
-      <edge toID="1.4" type="D">
-        <attributes />
-        <category tag="D" />
-      </edge>
       <edge toID="1.6" type="P">
         <attributes />
         <category tag="P" />

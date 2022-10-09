@@ -75,9 +75,9 @@
         <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.7" type="A">
+      <edge toID="1.9" type="P">
         <attributes />
-        <category tag="A" />
+        <category tag="P" />
       </edge>
     </node>
 	 <node ID="1.6" type="FN">
