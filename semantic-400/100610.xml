@@ -54,15 +54,15 @@
         <attributes />
         <category tag="U" />
       </edge>
-	  <edge toID="1.9" type="P">
+	  <edge toID="1.10" type="P">
         <attributes />
         <category tag="P" />
       </edge>
-      <edge toID="1.10" type="D">
+      <edge toID="1.11" type="D">
         <attributes />
         <category tag="D" />
       </edge>
-	  <edge toID="1.11" type="U">
+	  <edge toID="1.12" type="U">
         <attributes />
         <category tag="U" />
       </edge>
@@ -120,14 +120,21 @@
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.10" type="FN">
+	<node ID="1.10" type="FN">
+      <attributes />
+      <edge toID="0.5" type="Terminal">
+        <attributes />
+        <category tag="Terminal" />
+      </edge>
+    </node>
+	<node ID="1.11" type="FN">
       <attributes />
       <edge toID="0.6" type="Terminal">
         <attributes />
         <category tag="Terminal" />
       </edge>
     </node>
-    <node ID="1.11" type="PNCT">
+    <node ID="1.12" type="PNCT">
       <attributes />
       <edge toID="0.7" type="Terminal">
         <attributes />

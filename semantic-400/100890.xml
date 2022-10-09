@@ -42,18 +42,22 @@
         <attributes />
         <category tag="S" />
       </edge>
-      <edge toID="1.6" type="A">
+	  <edge toID="1.6" type="F">
+        <attributes />
+        <category tag="F" />
+      </edge>
+      <edge toID="1.7" type="A">
         <attributes />
         <category tag="A" />
       </edge>
-      <edge toID="1.7" type="U">
+      <edge toID="1.8" type="U">
         <attributes />
         <category tag="U" />
       </edge>
     </node>
     <node ID="1.3" type="FN">
       <attributes />
-      <edge toID="1.6" type="A">
+      <edge toID="1.7" type="A">
         <attributes remote="True"/>
         <category tag="A" />
       </edge>
