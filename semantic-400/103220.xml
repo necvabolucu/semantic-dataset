@@ -77,7 +77,7 @@
         <attributes />
         <category tag="E" />
       </edge>
-      <edge toID="1.6" type="E">
+      <edge toID="1.6" type="C">
         <attributes />
         <category tag="C" />
       </edge>
@@ -123,7 +123,7 @@
         <attributes />
         <category tag="S" />
       </edge>
-      <edge toID="1.12" type="D">
+      <edge toID="1.14" type="D">
         <attributes />
         <category tag="D" />
       </edge>

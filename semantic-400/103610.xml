@@ -161,10 +161,6 @@
         <attributes />
         <category tag="P" />
       </edge>
-      <edge toID="1.15" type="U">
-        <attributes />
-        <category tag="U" />
-      </edge>
     </node>
     <node ID="1.12" type="FN">
       <attributes />
